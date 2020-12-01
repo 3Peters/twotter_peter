@@ -10,7 +10,6 @@ export const UserModule = {
         SET_USER(state, user){
           state.user = user;
         }
-    
       },
     
       // Actions are functions that you call throughout your appéication that call mutations
