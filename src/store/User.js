@@ -17,5 +17,5 @@ export const UserModule = {
         setUser({ commit }, user){
           commit('SET_USER', user);
         }
-      },
+    }
 }

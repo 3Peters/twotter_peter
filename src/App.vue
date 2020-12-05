@@ -7,7 +7,7 @@
   </div>
      </router-link>
   <div class="navigation_user" v-if="user">
-    {{ user.username}}
+    {{ user.username }}
   </div>
   </nav>
   <router-view/>
@@ -20,8 +20,7 @@ import { computed } from 'vue';
 
 export default {
   name: 'App',
-  
-   setup(){
+   setup () {
 const store = useStore();
 const user = computed(() => store.state.User.user);
   return {
